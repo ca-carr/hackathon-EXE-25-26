@@ -1,16 +1,3 @@
-# Hackathon Module
-
-This is the README for the Github page that makes up part of the Blockchains and Quantum Implications short series of lectures.
-
-It is a part of the the University of Exeter's Hackathon module on the MSc Fintech.
-
-
-## 2026
-
-## Part 2
-
-## Part 3 Quantum
-
 # Hackathon (2025)
 
 ## Title: Building Blockchains; from the conceptual to the practical and beyond.
@@ -24,7 +11,7 @@ It is a part of the the University of Exeter's Hackathon module on the MSc Finte
 
 Below is a _rough_ schedule for the day.
 - **09:45am** Introduction
-- **10:00am** The Offline Blockchain ([GAME-1](2026/game1.md))
+- **10:00am** The Offline Blockchain (GAME-1)
 - **11:00am** Building a Blockchain Network, from Design to Implementation
 - **12:00pm** Quantum and Post Quantum, Ideas and Applications
 - **01:00pm** Lunch until 2:00pm
