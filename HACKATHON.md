@@ -1,4 +1,4 @@
-# Hackathon
+# Hackathon (2025)
 
 ## Title: Building Blockchains; from the conceptual to the practical and beyond.
 
