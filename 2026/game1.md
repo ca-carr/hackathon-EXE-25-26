@@ -90,43 +90,38 @@ The members that are not attackers may leave the room, but may not manipulate tr
 
 The first goal of the Network Team is to **deliver all transactions.**
 
-In addition, the attacker members are aiming to achieve a couple of goals:
+In addition, the **attacker members** are aiming to achieve a couple of goals:
 
 - Get the Recorder Team(s) to accept a double-spend
 - Get the Recorder Team(s) to accept a forgery
 - Make it so the ledger between the different recorder teams does not match
 - Disrupt the system in any other way.
 
-
 # Verifiers and Recorders
 
+The Verifier team is both a Verifier and Recorder team.  
 This group forms the consensus and agreement layer of the blockchain.
 
 ### Responsibilities
-- Verify each transaction against the rules you decided.
-- Accept or reject transactions.
+- Verify each transaction against the rules you decided
+- Accept or reject transactions
 - Update balances
-- Append a transaction to your ledger
+- Append transactions to your ledger
 - When a new transaction is appended, roll the dice; on a 6, you have made a block.
     - Underscore transactions and share the block with the other groups
-    - They must copy your ledger as it is and discard their own (though they may keep any transactions that they have not seen or have not been duplicated.)
+    - They must copy your ledger as it is and discard their own (though they may keep any transactions that they have not seen or has not been duplicated.)
 - Flag suspicious transactions
-
 
 ## Recorder Team Goals
 - Create more blocks than the other recorder teams.
 - Detect and flag any tampered or invalid transactions.
-
 
 # Game End and Win Conditions
 - You have 10 minutes to decide on your blockchain system.
 - The game ends after 20 minutes.
 - Then there is a reconciliation system where we count the blocks created, and the number of attacker transactions that were included.
 
-
-## Winning Criteria
-
-
+## Win Criteria
 
 ### Network **Super Win** Condition:
 - All blocks, or an overwhelming majority of blocks created, contain tampered or invalid transactions created by the attackers **and** the following win condition applies.
@@ -150,14 +145,13 @@ This group forms the consensus and agreement layer of the blockchain.
 - All transactions are accepted into the final blockchain.
 - Each sender’s name appears at least once in accepted transactions.
 
-
 ---
 
 # Debrief Questions
 1. What made consensus difficult?
 2. How did you detect fraudulent transactions?
-3. What role did the block creation (mining) play?
-4. How would digital signatures improve this system?
+3. What role did the block creation play?
+4. How would verifiable signatures improve this system?
 5. What happens when ledgers disagree?
 
 
