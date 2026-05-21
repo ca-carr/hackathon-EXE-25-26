@@ -1,6 +1,6 @@
 # Quick GitHub Codespaces Setup
 
-This is the short version.
+This is the short version of the setup.
 
 ## What you need
 - A GitHub account

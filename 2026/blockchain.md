@@ -1,4 +1,4 @@
-# Part 2, Building a Blockchain Network
+# Building a Blockchain Network
 
 ## The Challenge
 
@@ -49,39 +49,39 @@ But you can design your own format.
 
 ### 3. Blocks and the Chain
 
-Rather than appending every transaction individually, transactions are grouped into blocks. Each block references the one before it — that's what makes it a *chain*.
+How are you going to create your blockchain?
 
-**Questions to consider:**
-- How many transactions go in a block?
+**Things to consider:**
+- How many transactions go in a block? Is 1 ok?
 - What links one block to the previous one?
-- What stops someone from rewriting old blocks?
+- What stops someone from altering old blocks?
 
 A minimal block might contain:
 - A list of transactions
-- A reference to the previous block (e.g. a hash)
-- Some kind of identifier (index, timestamp, or both)
+- A reference to the previous block 
+- Some kind of identifier
 
 ### 4. Verification and Storage
 
 Nodes need to agree on which transactions and blocks are valid, and they need to store the chain somewhere.
 
-**Questions to consider:**
-- What makes a transaction invalid? (overspending, bad format, duplicate ID?)
+**Things to consider:**
+- What makes a transaction invalid?
 - What makes a block invalid?
-- Where do you store the chain — in memory, in a file?
+- Where do you store the chain?
 - What happens when two nodes have different versions of the chain?
 
 ---
 
 ## Getting Started
 
-You are free to use any language or tools available to you. Python is a reasonable choice given the environment, but the decision is yours.
+You are free to use any language or tools available to you. Python is a reasonable choice, but the decision is yours.
 
 Some starting points to think about before writing any code:
 
 1. **Sketch the message format** — what does a transaction look like as data you'd send over a network?
 2. **Sketch the block format** — what does a block look like?
-3. **Decide on transport** — how will nodes talk to each other? (HTTP, raw sockets, something else?)
+3. **Decide on transport** — how will nodes talk to each other? How can you achieve it? 
 4. **Start small** — get two nodes talking before worrying about chains and consensus.
 
 ---
@@ -92,11 +92,11 @@ These are the milestones to aim for, roughly in order of difficulty:
 
 1. **Get your network running** — at least two nodes connected and able to exchange messages.
 2. **Send and receive a transaction** — one node creates a transaction, another receives and validates it.
-3. **Connect with another group's network** — get a node from your network to talk to a node from another group's network.
+3. **Connect with another group's network** — get a node from your network to connect to someone from another group, or connect to their network.
 
 ---
 
-## Things to Watch Out For
+## Things to Watch Out For (Advanced Items)
 
 These are the same problems you encountered in Game 1, now in code:
 
@@ -105,7 +105,7 @@ These are the same problems you encountered in Game 1, now in code:
 - **Inconsistent state** — what happens when two nodes accept conflicting transactions?
 - **Message flooding** — if every node forwards every message, how do you stop the network from looping?
 
-You do not need to solve all of these. But be aware of them, and be ready to discuss where your design is vulnerable.
+You do not need to solve any / all of these. But be aware of them, and be ready to discuss where your design is vulnerable.
 
 ---
 
@@ -114,5 +114,4 @@ You do not need to solve all of these. But be aware of them, and be ready to dis
 1. What design decisions did you make early on that you later had to change?
 2. Where in your system would an attacker have the easiest time causing problems?
 3. How did you handle disagreement between nodes?
-4. What would you need to add to make this production-ready?
-5. How does your implementation compare to what you experienced in the offline game?
+4. How does your implementation compare to what you experienced in the offline game?
