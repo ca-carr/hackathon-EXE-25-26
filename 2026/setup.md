@@ -2,7 +2,7 @@
 
 ## Overview
 
-GitHub Codespaces provides a cloud-based development environment that allows you to work on code directly in your browser or through VS Code desktop. This guide will walk you through forking the repository to your own account, then setting up a Python development environment within a Codespace.
+GitHub Codespaces provides a cloud-based development environment that allows you to work directly in your browser or through VSCode desktop. This guide will walk you through forking the repository to your own account, then setting up a Python development environment within a Codespace.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ GitHub Codespaces provides a cloud-based development environment that allows you
 
 ### 1. Fork the Repository
 
-1. Navigate to the repository URL: `https://github.com/ca-carr/hackathon-EXE25.git`
+1. Navigate to the repository URL: `https://github.com/ca-carr/hackathon-EXE-25-26`
 2. Click the **"Fork"** button in the top-right corner of the repository page
 3. Choose your personal account (or your group's organization if working as a team)
 4. Optionally, rename the repository for your project
@@ -97,6 +97,9 @@ python -c "import sys; print(sys.version)"
 ```
 
 Run any test scripts or initial commands specified in the repository's README file.
+
+
+# Additional Considertaions
 
 ## Security Considerations for Local Connections
 
